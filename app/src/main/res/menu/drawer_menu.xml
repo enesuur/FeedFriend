@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="F.A.Q"
+            android:icon="@drawable/ic_nav_faq"
+            android:id="@+id/nav_faq">
+
+        </item>
+
+        <item
+            android:title="Our Partners"
+            android:icon="@drawable/ic_nav_partnership"
+            android:id="@+id/nav_partnership">
+
+        </item>
+
+
+        <item
+            android:title="Social Media"
+            android:icon="@drawable/ic_nav_social"
+            android:id="@+id/nav_social">
+
+        </item>
+
+        <item
+            android:title="Contact"
+            android:icon="@drawable/ic_nav_contact"
+            android:id="@+id/nav_contact">
+
+        </item>
+
+
+        <item
+            android:title="Exit"
+            android:icon="@drawable/ic_nav_exit"
+            android:id="@+id/nav_exit">
+
+        </item>
+
+
+    </group>
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="215dp"
+    android:background="@color/nav_background_color">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/navAvatar"
+        android:orientation="vertical"
+        android:layout_marginStart="42dp"
+        android:padding="5dp">
+
+
+        <ImageView
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:src="@drawable/ic_nav_avatar"
+            android:scaleType="fitXY">
+
+        </ImageView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:id="@+id/nav_username"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="32dp"
+            android:textAlignment="center">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

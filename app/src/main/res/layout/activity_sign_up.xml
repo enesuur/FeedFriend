@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/RelativeLayout_SU"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/txtName_SU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtSurname_SU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txtName_SU"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Surname"
+        android:inputType="textPersonName">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtMail_SU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txtSurname_SU"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="E-Mail"
+        android:inputType="textPersonName">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtPassword_SU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txtMail_SU"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword">
+
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/checkBox_SU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPassword_SU">
+    </CheckBox>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/checkBox_SU"
+        android:layout_alignBottom="@+id/checkBox_SU"
+        android:layout_alignStart="@+id/checkBox_SU"
+        android:layout_alignEnd="@+id/checkBox_SU"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:textSize="14sp"
+        android:text="I accept the term and agreement.">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnSignUp_SU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox_SU"
+        android:text="SIGN UP">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnCANCEL_SU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSignUp_SU"
+        android:text="CANCEL">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/infoFeedFriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:text="support@feedfriend.io" />
+
+
+</RelativeLayout>
